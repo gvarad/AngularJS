@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    </head>
+
+    <body ng-app="">
+        <div>
+            <p>Enter Number1: <input type="number" ng-model="num1"></p>
+            <p>Enter Number2:<input type="number" ng-model="num2"></p>            
+        </div>
+        <br>
+
+        <div>
+            <p>{{num1}}+{{num2}} = {{num1+num2}}</p>
+        </div>
+
+        <div>
+            <p>{{num1}}*{{num2}} ={{num1*num2}}</p>
+        </div>
+        <div>
+            <p>{{num1}}-{{num2}} ={{num1-num2}}</p>
+        </div>
+        <div>
+            <p>{{num1}}/{{num2}} ={{num1/num2}}</p>
+        </div>
+    </body>
+</html>
